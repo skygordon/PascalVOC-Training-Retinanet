@@ -1,9 +1,9 @@
 # PascalVOC-Training-Retinanet
 Using PascalVOC 2007 Images to Train Retinanet
 
-I ran this Jupyter Notebook in an AWS EC2 instance. The instance type was a p2.xlarge (which I believe costs around $0.90/hour to run) and I used a Deep Learning AMI Ubuntu.
-
 This was my first time training a machine learning model and my first time doing any object detection, so if you too are a beginner, I hope this notebook helps you. I tried to supply explanations and details about the diffeent keras functions being used, and tried to keep the training job as standard as possible for clarity.
+
+I ran this Jupyter Notebook in an AWS EC2 instance. The instance type was a p2.xlarge (which I believe costs around $0.90/hour to run) and I used a Deep Learning AMI Ubuntu.
 
 Each epoch took about 12 hours to run (I believe), and I did use some tmux commands in my AMI terminal to keep jupyter notebook running continously. 
 I ran the following lines in my AMI terminal to get tmux going:
