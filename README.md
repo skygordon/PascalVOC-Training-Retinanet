@@ -1,7 +1,9 @@
 # PascalVOC-Training-Retinanet
-Using PascalVOC 2007 Images to Train Retinanet
+## Using PascalVOC 2007 Images to Train Retinanet
 
 This was my first time training a machine learning model and my first time doing any object detection, so if you too are a beginner, I hope this notebook helps you. I tried to supply explanations and details about the diffeent keras functions being used, and tried to keep the training job as standard as possible for clarity.
+
+I created this jupyter notebook with the goal of training the Retinanet model, by fizyr, which shows great promise in object detection. I used PascalVOC because it was a standard and already annotated dataset, that was in a easy format to use for this training.
 
 I ran this Jupyter Notebook in an AWS EC2 instance. The instance type was a p2.xlarge (which I believe costs around $0.90/hour to run) and I used a Deep Learning AMI Ubuntu.
 
