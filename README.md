@@ -1,5 +1,5 @@
 # PascalVOC-Training-Retinanet
-## Using PascalVOC 2007 Images to Train Retinanet
+## Using PascalVOC 2007 Images to Train Retinanet, for beginners
 
 This was my first time training a machine learning model and my first time doing any object detection, so if you too are a beginner, I hope this notebook helps you. I tried to supply explanations and details about the different keras functions being used, and tried to keep the training job as standard as possible for clarity.
 
