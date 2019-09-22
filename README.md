@@ -9,10 +9,10 @@ I ran this Jupyter Notebook in an AWS EC2 instance. The instance type was a p2.x
 
 Each epoch took about 12 hours to run (I believe), and I did use some tmux commands in my AMI terminal to keep jupyter notebook running continously. 
 I ran the following lines in my AMI terminal to get tmux going:
-conda install jupyter
-sudo apt-get install -y tmux
-tmux new -s jup
-jupyter notebook --no-browser
+- conda install jupyter
+- sudo apt-get install -y tmux
+- tmux new -s jup
+- jupyter notebook --no-browser
 
 Here's some basic controls for tmux
 - tmux new -s sessionname = creates new terminal for your jupyter notebook
